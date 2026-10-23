@@ -1342,3 +1342,16 @@ footer {background:#07121f}
   .project-thumbnail {aspect-ratio:16 / 9;}
   .thumbnail-overlay {opacity:1;}
 }
+
+/* JEEVIKA Logo Size Fix */
+.company-name .jeevika-logo {
+    width: 32px;
+    height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    flex-shrink: 0;
+}
